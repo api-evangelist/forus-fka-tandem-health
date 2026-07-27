@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://security.forus.com/
+url: https://security.forus.com/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://security.forus.com/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center

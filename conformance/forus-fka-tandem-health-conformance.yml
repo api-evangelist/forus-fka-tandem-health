@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://security.forus.com/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: 'Trust center reports a completed SOC 2 Type II audit (period Feb 1 2025 - Jan 31 2026) with a clean opinion from Sensiba LLP; SOC 2 report available on request.'
+- id: hipaa
+  conforms: true
+  evidence: 'Trust center states the platform is fully HIPAA-compliant; HIPAA report available on request.'
+- id: iso-27001
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false
+- id: fhir-r4
+  conforms: false
+  evidence: 'No public OpenAPI or FHIR conformance statement published; company describes EHR integration but does not publish a developer FHIR surface.'
+notes: 'Forus (fka Tandem Health) publishes no public API/OpenAPI; conformance is asserted from the published trust center only. Data is described as end-to-end encrypted and stored in US-based systems.'
